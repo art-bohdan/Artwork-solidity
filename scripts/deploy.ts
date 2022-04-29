@@ -6,7 +6,7 @@ async function main() {
 
   await artwork.deployed();
 
-  console.log("Greeter deployed to:", artwork.address);
+  console.log("Artwork deployed to:", artwork.address);
 }
 
 main().catch((error) => {
