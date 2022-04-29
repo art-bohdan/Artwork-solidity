@@ -10,8 +10,8 @@ dotenv.config();
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
   networks: {
-    mumbai: {
-      url: "https://matic-testnet-archive-rpc.bwarelabs.com",
+    matic: {
+      url: "https://rpc-mumbai.maticvigil.com",
       accounts: [process.env.PRIVATE_KEY!],
     },
   },
